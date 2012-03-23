@@ -30,4 +30,11 @@
 		<nature>com.android.ide.eclipse.adt.AndroidNature</nature>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>newfile.erm</name>
+			<type>1</type>
+			<location>/Users/joyspring/Desktop/bookmark_share.erm</location>
+		</link>
+	</linkedResources>
 </projectDescription>

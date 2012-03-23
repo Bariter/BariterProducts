@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+>
+
+    <EditText android:text="" android:layout_height="wrap_content"
+  		android:id="@+id/EditTextFatPercentage" android:layout_width="fill_parent"
+  		android:hint="@string/fatpercentageinput"
+  		android:inputType="text">
+    </EditText>
+    <!-- 通信を開始 -->
+    <Button
+        android:id="@+id/btn1"
+        android:layout_height="wrap_content"
+        android:layout_width="300dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:padding="20dp"
+        android:textSize="22dp"
+        android:text="@string/btn_label"
+    ></Button>
+
+
+    <!-- 通信の結果を表示 -->
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textSize="15dp"
+        android:text="@string/temp_text"
+    />
+</LinearLayout>
